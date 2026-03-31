@@ -2,5 +2,6 @@
 <item>
 	<version>1.0.0</version>
 	<url>https://github.com/pinalrafael/BridgeMaster_Public/releases/download/1.0.0/BridgeMasterSetup.exe</url>
+	<changelog>https://github.com/pinalrafael/BridgeMaster_Public/releases</changelog>
 	<mandatory>false</mandatory>
 </item>
