@@ -2,6 +2,5 @@
 <item>
 	<version>2.0.0.0</version>
 	<url>https://github.com/pinalrafael/BridgeMaster_Public/releases/download/2.0.0.0/BridgeMasterSetup.exe</url>
-	<checksum algorithm="sha256">0f5ee9956ff0eee35defcbeda5b6b43e58112293baf430addc9a3fdf860930c9</checksum>
 	<mandatory>false</mandatory>
 </item>
