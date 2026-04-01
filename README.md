@@ -81,7 +81,7 @@ Este software permite criar uma arquitetura baseada em **sources** e **targets**
 Licença inválida ou expirada.
 Machine ID: XXXX-XXXX
 License ID: XXXXXXXX
-Entre em contato: suporte@seudominio.com
+Entre em contato: helpdesk@cpsystems.com.br
 
 
 ---
@@ -89,8 +89,7 @@ Entre em contato: suporte@seudominio.com
 ## Atualizações
 
 - O software possui um mecanismo de **verificação de updates** via GitHub.
-- É possível validar atualizações automaticamente a cada 12 horas.
-- Arquivo de validação está na pasta **Validation/**.
+- É possível validar a licença automaticamente a cada 12 horas.
 
 ---
 
@@ -109,7 +108,7 @@ Desenvolvido por Rafael Pinal
 © 2026 Rafael Pinal. Todos os direitos reservados.
 Uso de licenças é obrigatório para acesso completo ao software.
 Contato e Suporte
-Email: suporte@seudominio.com
+Email: helpdesk@cpsystems.com.br
 Para dúvidas de licença, instalação ou bugs.
 Tradução Inglês
 
