@@ -121,6 +121,44 @@ Fluxo:
 
 ---
 
+## 💰 Preço
+
+<p align="center">
+  <b>Comece gratuitamente. Evolua conforme sua necessidade.</b>
+</p>
+
+---
+
+| Plano                 | Ideal para              | Recursos                                                                                                                | Preço                                            |
+| --------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| 🟢 **Starter**        | Testes e uso básico     | 1 bridge ativa<br>Até 5 endpoints<br>Logs básicos                                                                       | **Gratuito (limitado)**                          |
+| 🔵 **Professional ⭐** | Uso profissional        | Bridges múltiplas<br>Endpoints ilimitados<br>Logs completos<br>Serial virtual + TCP server<br>Envio manual de mensagens | **R$ 79–149 / mês**<br>ou **R$ 397–697 licença** |
+| 🟣 **Enterprise**     | Empresas e alta demanda | Tudo do Professional<br>Suporte prioritário<br>Customizações<br>Acesso antecipado a novas features                      | **Sob consulta**                                 |
+
+<p align="center">
+  <a href="mailto:contato@cpsystems.com.br">
+    <img src="https://img.shields.io/badge/Comprar%20Licen%C3%A7a-Entrar%20em%20Contato-success?style=for-the-badge&logo=gmail">
+  </a>
+</p>
+
+---
+
+### 🔐 Trial
+
+* 7 dias de teste gratuito com acesso completo
+* Após o período, algumas funcionalidades podem ser limitadas ou bloqueadas
+* Licença necessária para uso contínuo
+
+---
+
+### 💡 Notas
+
+* Licenças são vinculadas à máquina
+* Descontos podem ser aplicados para uso corporativo
+* Entre em contato para planos personalizados
+
+---
+
 ---
 
 ## 🇺🇸 English
@@ -224,6 +262,44 @@ Flow:
 
 * 7-day free trial
 * License required after trial
+
+---
+
+## 💰 Pricing
+
+<p align="center">
+  <b>Start free. Upgrade when you need more power.</b>
+</p>
+
+---
+
+| Plan                  | Best for                               | Features                                                                                                         | Price                                         |
+| --------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| 🟢 **Starter**        | Testing and basic usage                | 1 active bridge<br>Up to 5 endpoints<br>Basic logs                                                               | **Free (limited)**                            |
+| 🔵 **Professional ⭐** | Professional use                       | Multiple bridges<br>Unlimited endpoints<br>Full logging<br>Virtual serial + TCP server<br>Manual message sending | **$15–30 / month**<br>or **$80–140 lifetime** |
+| 🟣 **Enterprise**     | Companies and high-demand environments | Everything in Professional<br>Priority support<br>Custom builds<br>Early access to new features                  | **Contact us**                                |
+
+<p align="center">
+  <a href="mailto:contato@cpsystems.com.br">
+    <img src="https://img.shields.io/badge/Get%20License-Contact%20Now-success?style=for-the-badge&logo=gmail">
+  </a>
+</p>
+
+---
+
+### 🔐 Trial
+
+* 7-day free trial with full access
+* After the trial period, some features may be limited or blocked
+* License required for continued use
+
+---
+
+### 💡 Notes
+
+* Licenses are machine-bound
+* Discounts may apply for corporate use
+* Contact us for customized plans
 
 ---
 
