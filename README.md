@@ -232,8 +232,9 @@ Flow:
 This repository is used only for releases and licensing.
 Source code is private.
 
+---
 
-## Contato
+### 📧 Contato
 Desenvolvido por Rafael Pinal
 © 2026 Rafael Pinal. Todos os direitos reservados.
 Uso de licenças é obrigatório para acesso completo ao software.
