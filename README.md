@@ -1,7 +1,7 @@
 # BridgeMaster
 
 ![Release](https://img.shields.io/github/v/release/pinalrafael/BridgeMaster_Public?style=flat-square)
-![License](https://img.shields.io/github/license/pinalrafael/BridgeMaster_Public?style=flat-square)
+![License](https://img.shields.io/badge/License-Proprietary-red)
 
 <p align="center">
   <img src="docs/images/banner.png" alt="BridgeMaster Banner" width="100%">
