@@ -92,6 +92,7 @@ Fluxo:
 * Múltiplos endpoints simultâneos
 * Encaminhamento automático
 * Logs completos
+* Relatórios completos e detalhados em TXT, Excel e PDF
 * Envio manual (Texto / Hex / Byte)
 * Servidor TCP integrado
 * Porta serial virtual
@@ -236,6 +237,7 @@ Flow:
 * Multi-endpoint configuration
 * Automatic routing
 * Full logging
+* Complete and detailed reports in TXT, Excel, and PDF formats
 * Manual message sending
 * Built-in TCP server
 * Virtual serial ports
