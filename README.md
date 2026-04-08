@@ -31,6 +31,10 @@ O **BridgeMaster** é uma plataforma de integração que cria uma ponte entre m�
 
 <img src="docs/images/home.png" width="100%">
 
+#### 📝 Cadastro de Endpoints
+
+<img src="docs/images/register.png" width="100%">
+
 #### ⚙️ Configurações
 
 <img src="docs/images/settings.png" width="100%">
@@ -133,6 +137,10 @@ Fluxo:
 
 <img src="docs/images/home.png" width="100%">
 
+#### 📝 Endpoint Registration
+
+<img src="docs/images/register.png" width="100%">
+
 #### ⚙️ Settings
 
 <img src="docs/images/settings.png" width="100%">
@@ -223,6 +231,7 @@ Flow:
 
 This repository is used only for releases and licensing.
 Source code is private.
+
 
 ## Contato
 Desenvolvido por Rafael Pinal
