@@ -1,124 +1,233 @@
-# BridgeMaster Public
+# BridgeMaster
 
-**BridgeMaster** é um software que atua como uma **ponte de comunicação entre dispositivos**, permitindo integração eficiente entre múltiplos endpoints, com suporte a licenças e validação online/offline.
+<p align="center">
+  <img src="docs/images/banner.png" alt="BridgeMaster Banner" width="100%">
+</p>
 
----
+<p align="center">
+  <b>Serial • TCP • UDP Integration Middleware</b><br>
+  Bridge multiple communication endpoints with real-time routing and monitoring
+</p>
 
-## Sobre o Software
-
-Este software permite criar uma arquitetura baseada em **sources** e **targets**:
-
-- Dispositivos podem ser agrupados como **sources** ou **targets**.
-- Dados enviados por um **source** são automaticamente distribuídos para todos os **targets** configurados.
-- Mensagens recebidas de um **target** são encaminhadas para todos os **sources**.
-- Suporta envio de mensagens em formatos:
-  - Texto
-  - Hexadecimal
-  - Byte array
-- Mensagens podem ser enviadas para:
-  - Todos os dispositivos
-  - Grupos específicos
-  - Dispositivos individuais
-
-**Funcionalidades adicionais:**
-
-- Registro de **logs detalhados** de todas as comunicações.
-- Console integrado para envio manual de mensagens.
-- Flexibilidade de comunicação:
-  - **Serial** (incluindo criação de portas virtuais)
-  - **TCP** (modo cliente e servidor)
-  - **UDP**
-- Validação de licenças com fallback offline (arquivo local encriptado pelo ID da máquina).
-- Suporte a licenças trial de 30 dias e licenças completas.
+<p align="center">
+  <a href="../../releases">
+    <img src="https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge" />
+  </a>
+</p>
 
 ---
 
-## Requisitos
+## 🇧🇷 Português
 
-- Windows 10 ou superior
-- .NET 6 ou .NET 7 Runtime
-- Conexão com internet (para validação de licenças online)
-- Permissões para criação de arquivos em `%AppData%` (para salvar licenças locais)
+### 🚀 Sobre o BridgeMaster
 
----
-
-## Instalação
-
-1. Baixe a versão mais recente na pasta **Releases**.
-2. Execute o instalador e siga as instruções.
-3. Ao abrir o software pela primeira vez:
-   - Se não houver licença, será criada automaticamente uma **licença trial de 30 dias**.
-   - Licença é validada no GitHub e armazenada localmente.
-   - Caso a validação online falhe, o software usa a licença local.
+O **BridgeMaster** é uma plataforma de integração que cria uma ponte entre múltiplos endpoints de comunicação, permitindo o roteamento e encaminhamento de mensagens entre diferentes protocolos e interfaces.
 
 ---
 
-## Como Usar
+### 🖼️ Interface
 
-### Interface Principal
+#### 🏠 Home
 
-- Configure **sources** e **targets** no console.
-- Mensagens podem ser enviadas manualmente ou automaticamente distribuídas.
-- Visualize logs detalhados de comunicação.
-- Envio de mensagens:
-  - Para todos os dispositivos
-  - Para grupos específicos
-  - Para dispositivos individuais
-- Formatos de mensagem suportados:
-  - Texto
-  - Hexadecimal
-  - Byte array
+<img src="docs/images/home.png" width="100%">
 
-### Licenças
+#### ⚙️ Configurações
 
-- Trial: 30 dias, ativada automaticamente.
-- Licença ativa: obtida via GitHub ou importada manualmente.
-- Licença expirada ou inativa bloqueia acesso aos módulos.
+<img src="docs/images/settings.png" width="100%">
 
-**Exemplo de mensagem de licença inválida:**
+#### 🧭 Gerenciamento de Endpoints
 
+<img src="docs/images/management.png" width="100%">
 
-Licença inválida ou expirada.
-Machine ID: XXXX-XXXX
-License ID: XXXXXXXX
-Entre em contato: helpdesk@cpsystems.com.br
+#### 🌗 Tema Claro / Escuro
 
+<img src="docs/images/themes.png" width="100%">
+
+#### 📡 Comunicação em Tempo Real
+
+<img src="docs/images/communication.png" width="100%">
+
+> Exemplo: terminal serial e terminal TCP trocando mensagens em tempo real
 
 ---
 
-## Atualizações
+### 🧩 Problema que resolve
 
-- O software possui um mecanismo de **verificação de updates** via GitHub.
-- É possível validar a licença automaticamente a cada 12 horas.
+Integrar diferentes tipos de comunicação (Serial, TCP, UDP) normalmente exige esforço elevado e pouca visibilidade.
+O BridgeMaster centraliza tudo em uma única interface com monitoramento completo.
 
 ---
 
-## Desenvolvedores
+### ⚙️ Como funciona
 
-### Estrutura do Código-Fonte
+* **Sources** → origem das mensagens
+* **Targets** → destino das mensagens
 
-- **LicenseManager**: gerencia licenças, validação online/offline.
-- **GitHubService**: comunicação com o GitHub para licenças e updates.
-- **Views**: janelas WPF (LicenseAdmin, LicenseEdit, Console Principal)
-- **Models**: classes LicenseData, MachineIdHelper, etc.
-- **Utils**: criptografia, logs, helpers.
+Fluxo:
 
-## Licença do Software
+* Source → envia para todos Targets
+* Target → responde para todos Sources
+
+---
+
+### 🔌 Endpoints suportados
+
+* Serial físico (COM)
+* Serial virtual
+* TCP Server
+* TCP Client
+* UDP Client
+
+---
+
+### ✨ Funcionalidades
+
+* Múltiplos endpoints simultâneos
+* Encaminhamento automático
+* Logs completos
+* Envio manual (Texto / Hex / Byte)
+* Servidor TCP integrado
+* Porta serial virtual
+* CLI e DLL gratuitos
+
+---
+
+### 💡 Casos de uso
+
+* Dispositivo serial → múltiplos PCs via TCP
+* Monitoramento remoto (LAN/VPN)
+* Gateway entre protocolos
+* Simulação de comunicação
+* Integração hardware/software
+
+---
+
+### 🖥️ Plataforma
+
+* Windows
+* WPF (.NET 10)
+* SQLite local
+
+---
+
+### 🔐 Licenciamento
+
+* 7 dias grátis
+* Após isso, requer licença
+
+---
+
+---
+
+## 🇺🇸 English
+
+### 🚀 About BridgeMaster
+
+**BridgeMaster** is an integration platform that bridges multiple communication endpoints, enabling real-time message routing across different protocols.
+
+---
+
+### 🖼️ Interface
+
+#### 🏠 Home
+
+<img src="docs/images/home.png" width="100%">
+
+#### ⚙️ Settings
+
+<img src="docs/images/settings.png" width="100%">
+
+#### 🧭 Endpoint Management
+
+<img src="docs/images/management.png" width="100%">
+
+#### 🌗 Light / Dark Theme
+
+<img src="docs/images/themes.png" width="100%">
+
+#### 📡 Real-Time Communication
+
+<img src="docs/images/communication.png" width="100%">
+
+> Example: serial terminal communicating with a TCP terminal in real time
+
+---
+
+### 🧩 Problem it solves
+
+Integrating Serial, TCP, and UDP communications is complex and fragmented.
+BridgeMaster centralizes everything into a single, observable system.
+
+---
+
+### ⚙️ How it works
+
+* **Sources** → message origin
+* **Targets** → message destination
+
+Flow:
+
+* Source → forwarded to all Targets
+* Target → forwarded to all Sources
+
+---
+
+### 🔌 Supported endpoints
+
+* Physical Serial (COM)
+* Virtual Serial
+* TCP Server
+* TCP Client
+* UDP Client
+
+---
+
+### ✨ Features
+
+* Multi-endpoint configuration
+* Automatic routing
+* Full logging
+* Manual message sending
+* Built-in TCP server
+* Virtual serial ports
+* Free CLI and DLL
+
+---
+
+### 💡 Use cases
+
+* Serial device → multiple TCP clients
+* Remote monitoring (LAN/VPN)
+* Protocol gateway
+* Communication simulation
+* Hardware/software integration
+
+---
+
+### 🖥️ Platform
+
+* Windows
+* WPF (.NET 10)
+* SQLite (local DB)
+
+---
+
+### 🔐 Licensing
+
+* 7-day free trial
+* License required after trial
+
+---
+
+### ℹ️ Note
+
+This repository is used only for releases and licensing.
+Source code is private.
+
+## Contato
 Desenvolvido por Rafael Pinal
 © 2026 Rafael Pinal. Todos os direitos reservados.
 Uso de licenças é obrigatório para acesso completo ao software.
 Contato e Suporte
 Email: helpdesk@cpsystems.com.br
 Para dúvidas de licença, instalação ou bugs.
-Tradução Inglês
-
-BridgeMaster is a communication bridge software between devices:
-
-Configurable sources and targets
-Automatic message forwarding between devices
-Logs all communications
-Console for sending messages in text, hex or byte format
-Supports Serial, TCP and UDP
-License management: online validation and offline fallback
-
-For more details, see the sections above.
