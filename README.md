@@ -1,5 +1,8 @@
 # BridgeMaster
 
+![Release](https://img.shields.io/github/v/release/pinalrafael/BridgeMaster_Public?style=flat-square)
+![License](https://img.shields.io/github/license/pinalrafael/BridgeMaster_Public?style=flat-square)
+
 <p align="center">
   <img src="docs/images/banner.png" alt="BridgeMaster Banner" width="100%">
 </p>
@@ -317,3 +320,6 @@ Uso de licenças é obrigatório para acesso completo ao software.
 Contato e Suporte
 Email: helpdesk@cpsystems.com.br
 Para dúvidas de licença, instalação ou bugs.
+
+## 🗣️ Feedbacks de usuários
+
