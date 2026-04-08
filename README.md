@@ -314,11 +314,11 @@ Source code is private.
 ---
 
 ### 📧 Contato
-Desenvolvido por Rafael Pinal
-© 2026 Rafael Pinal. Todos os direitos reservados.
-Uso de licenças é obrigatório para acesso completo ao software.
-Contato e Suporte
-Email: helpdesk@cpsystems.com.br
+Desenvolvido por Rafael Pinal<br>
+© 2026 Rafael Pinal. Todos os direitos reservados.<br>
+Uso de licenças é obrigatório para acesso completo ao software.<br>
+Contato e Suporte<br>
+Email: contato@cpsystems.com.br<br>
 Para dúvidas de licença, instalação ou bugs.
 
 ## 🗣️ Feedbacks de usuários
